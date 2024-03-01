@@ -1,0 +1,39 @@
+.event-details {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px; /* Optional: Set a maximum width */
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Optional: Set a background color */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Optional: Add styles for ticket information */
+.ticket-info {
+  font-weight: bold;
+}
+
+.ticket-availability {
+  color: #333; /* Adjust color as needed */
+}

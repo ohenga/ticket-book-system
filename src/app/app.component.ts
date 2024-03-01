@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterModule], // Import RouterModule
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  //template:'',
+  styleUrls: ['./app.component.css'] // Optional: Add your stylesheet
 })
 export class AppComponent {
-  title = 'ticket-book-system';
+  title = 'admin-dashboard';
 }

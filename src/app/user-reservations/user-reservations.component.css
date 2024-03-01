@@ -1,0 +1,34 @@
+.user-reservations {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px; /* Optional: Set a maximum width */
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Optional: Set a background color */
+}
+
+.reservation-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0; /* Add margin for better separation */
+}
+
+.reservation-list li {
+  border-bottom: 1px solid #ddd; /* Add a subtle border between reservations */
+  padding: 0.5rem 0;
+}
+
+.reservation-list li:last-child {
+  border-bottom: none; /* Remove border for the last element */
+}
+
+/* Optional: Add styles for specific elements */
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}

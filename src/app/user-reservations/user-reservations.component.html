@@ -1,0 +1,12 @@
+<h2>Your Reservations</h2>
+<div *ngIf="reservations.length > 0">
+  <ul>
+    <li *ngFor="let reservation of reservations">
+      <h3>{{ reservation.event.name }}</h3>
+      <p>Date: {{ reservation.event.date | date:'longDate' }}</p>
+      <p>Type: {{ reservation.ticketType }}</p>
+      <p>Quantity: {{ reservation.quantity }}</p>
+    </li>
+  </ul>
+</div>
+<p *ngIf="reservations.length === 0">You have no reservations yet.</p>

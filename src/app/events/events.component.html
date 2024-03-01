@@ -1,0 +1,13 @@
+<h2>Available Events</h2>
+
+<div *ngFor="let event of events">
+  <h3>{{ event.name }}</h3>
+  <p>Date: {{ event.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}</p>
+  <p>Description: {{ event.description }}</p>
+  <h4>Available Tickets:</h4>
+  <ul>
+    <li>VIP: {{ event.tickets.vip.available }}</li>
+    <li>Regular: {{ event.tickets.regular.available }}</li>
+  </ul>
+</div>
+
